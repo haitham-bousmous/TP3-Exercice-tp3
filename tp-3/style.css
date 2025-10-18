@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #fff;
+    color: #040404;
+}
+header {
+    background: border-box #e2a03c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+nav a {
+  color: #fff;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li {
+    font-weight: 500;
+    cursor: grab;
+    transition: color 0.3s;
+}
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #c0392b;
+    letter-spacing: 1px;
+}
+
+.alpha1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background: #fff8f5;
+}
+
+.alpha2 {
+      max-width: 500px;
+}
+
+.alpha2 h2 {
+    font-size: 80px;
+    color: #d5850d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.alpha2 h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #2b2b2b;
+    font-weight: 800;
+}
+
+.alpha2 p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #a12f23;
+}
+
+.alpha-img {
+    position: relative;
+}
+
+.alpha-img img {
+    width: 400px;
+    border-radius: 40%;
+}
+footer {
+  background-color: #e2a03c;
+  display: flex;
+
+    padding: 10px;
+}
+  .imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.search {
+    padding: 10px;
+    text-align: center;
+}
+input[type="search1"] {
+    padding: 8px;
+    width: 200px;
+    border-radius: 4px;
+}
+.pastilla {
+    background-color: crimson;
+    color: #fff;
+    border-top: none;
+    width: 100%;
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+
+}
+.tajine {
+    background-color: crimson;
+    color: #fff;
+    border-top: none;
+    width: 100%;
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+
+}
+.couscous {
+    background-color: crimson;
+    color: #fff;
+    border-top: none;
+    width: 100%;
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+}
